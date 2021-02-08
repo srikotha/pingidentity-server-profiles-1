@@ -1,2 +1,3 @@
-echo "This is a Test hook"
-echo "Secrets Dir Is ${SECRETS_DIR}"
+echo "This is POST START Hook"
+echo "Deleting Secrets Dir ${SECRETS_DIR}"
+rm -rf ${SECRETS_DIR}
